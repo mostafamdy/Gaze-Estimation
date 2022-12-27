@@ -151,8 +151,6 @@ mp_face_mesh = mp.solutions.face_mesh
 # For webcam input:
 drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
 cap = cv2.VideoCapture(0)
-h = 600
-w = 1200
 isNext = False
 
 blackWindow = np.zeros((h, w, 3), np.uint8)
