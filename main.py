@@ -10,24 +10,6 @@ h = 600
 w = 1200
 blackWindow = np.zeros((h, w, 3), np.uint8)
 
-while True:
-    blackWindow[:100,:100]=[255,255,255]
-    cv2.imshow('result', blackWindow)
-
-    k = cv2.waitKey(5)
-    if k == 27:
-        exit()
-
-
-
-
-
-
-
-
-
-
-
 LEFT_IRIS = [474,475, 476, 477]
 RIGHT_IRIS = [469, 470, 471, 472]
 # Left eye indices list
